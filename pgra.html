@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <title>Elakya G | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #f4f4f4, #d9e2ec);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: linear-gradient(to right, #35424a, #3b4b57);
+            color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin-left: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            color:white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            flex: 1;
+        }
+        .profile {
+            text-align: center;
+            margin-right: 50px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #35424a;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .info {
+            margin-top:30px;
+            margin-bottom:10px;
+            background: light grey;
+            border-radius: 5px;
+            padding: 25px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+            transition: transform 0.3s;
+            box-shadow:0 0 20px grey;
+            border:10px red;
+        }
+        .info:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: navy blue;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .social-media {
+            margin-top: 10px;
+            font-weight:bold;
+        }
+        .social-media a {
+            color: #35424a;
+            margin: 0 5px;
+            text-decoration: none;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+        .social-media a:hover {
+            color: #333;
+        }
+        .social-media,g:hover {
+            transform: translateY(-5px);
+        }
+        .l:hover {
+            transform: translateY(-5px);
+        }
+        .i:hover {
+            transform: translateY(-5px);
+        }
+        .e:hover {
+            transform: translateY(-5px);
+        }
+        section {
+            background:white;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: translateY(-3px);
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border 0.3s;
+        }
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border: 1px solid #35424a;
+            outline: none;
+        }
+        .contact-form button {
+            background: linear-gradient(to right, #35424a, #3b4b57);
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            padding: 10px;
+            background:green;
+        }
+        .text-header{
+            font-family:"Fredoka",sans-serif;
+            font-weight:200px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to right, #35424a, #3b4b57);
+            color: #ffffff;
+            position: relative;
+            width: 100%;
+        }
+        #form-message {
+            margin-top: 15px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1 class="text-header">Elakya G | Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internship">Internship</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="profile">
+            <img src="ELAKX_1.jpeg" alt="Elakya G's professional photo">
+            <div class="info" id="about">
+                <h1>Elakya G</h1>
+                <h2>About Me</h2>
+                <p>I am a dedicated and driven third-year Computer Science Engineering student with a strong passion for front-end development. With hands-on experience gained through internships, I am eager to apply my technical skills and creative solutions in a collaborative environment. I am committed to contributing effectively to team objectives and excited about opportunities for professional growth.</p>
+                <p>Birthday: 08 December 2004</p>
+                <p>Degree: Computer Science Engineering</p>
+                <p>Skills: HTML, CSS, JavaScript</p>
+                <p>Email: <a href="mailto:elakyagunasekaran08@gmail.com">elakyagunasekaran08@gmail.com</a></p>
+                <div class="social-media">
+                    <a href="https://github.com/ElakyaG" target="https://github.com/ElakyaG" class="g">GitHub |</a>
+                    <a href="https://www.linkedin.com/in/elakya-gunasekaran/" target="https://www.linkedin.com/in/elakya-gunasekaran/" class="l">LinkedIn |</a>
+                    <a href="https://www.instagram.com/simplymyself___./" target="https://www.instagram.com/simplymyself___." class="i">Instagram |</a>
+                    <a href="mailto:elakyagunasekaran08@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>Dr. Mahalingam College of Engineering and Technology</h3>
+            <p>2022 - Present</p>
+            <p> CGPA: 8.2 </p>
+            <h3>HSC | Sri Vagisvari Vidya Mandir | May 2022</h3>
+            <p>Percentage:78%</p>
+            <h3>SSLC | Sri Vagisvari Vidya Mandir | March 2020</h3>
+            <p>Percentage:96%</p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <h3>Smart Traffic Light System</h3>
+            <p>Traditional traffic management systems often struggle to adapt to changing traffic patterns, leading to inefficiencies and congestion. To address this, we successfully developed a smart traffic light system using Python and OpenCV that dynamically adjusts signal timings based on real-time data. By integrating IoT components, this system enhances traffic flow, reduces congestion, and improves overall urban transportation efficiency.</p>
+        </div>
+        <div class="projects">
+            <h3>Chattwist</h3>
+            <p>A webpage for the social media network Chattwist was created using HTML, CSS, and JavaScript. The design emphasizes an engaging user interface with responsive elements, enabling dynamic content and interactivity. This approach enhances user experience and fosters social interactions on the platform.</p>
+        </div>
+    </section>
+    <section id="internship">
+        <h2>Internship</h2>
+        <div class="internship">
+            <h3>3 MONKS DIGITAL-Digital Marketing Intern</h3>    
+            <p> Learned about data centres,CDNs,Wappalyzers,GTMetrix,UberSuggests and SEMRush</p>
+        </div>
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="resume">
+            <a href="Elakx-resumeupdated.docx" download>Download My Resume</a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact">
+            <form id="contact-form" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-message" class="hidden"></div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Elakya G.</p>
+    </footer>
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Display a success message
+            const formMessage = document.getElementById("form-message");
+            formMessage.textContent = "Thank you for your message! I will get back to you soon.";
+            formMessage.classList.remove("hidden");
+            formMessage.style.color = "green";
+          // Reset the form
+            this.reset();
+        });
+    </script>
+</body>
+</html>
